@@ -1,8 +1,26 @@
 aid: shift5
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/shift5.png
 name: Shift5
-description: 'Shift5 is a company surfaced as a portfolio company of insight-partners and added to the
-  API Evangelist network as a stub for enrichment. Sector: cybersecurity. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Shift5 is an operational technology (OT) cyber and observability company
+  that instruments the onboard serial data buses of planes, trains, and military weapons
+  systems to deliver real-time intrusion detection, predictive maintenance, and compliance
+  intelligence for defense and transportation fleets. Founded by former US Army Cyber
+  Command engineers, it collects and analyzes data directly from vehicle bus networks
+  (MIL-STD-1553, ARINC 429, CAN) to give operators actionable insight into the health
+  and security of their platforms. Backed by Insight Partners. This profile was added
+  to the API Evangelist network as a portfolio-lead stub; enrichment confirms Shift5
+  publishes no public API or developer program.'
 url: https://raw.githubusercontent.com/api-evangelist/shift5/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Cybersecurity
+- Operational Technology
+- OT Security
+- Defense
+- Transportation
+- Predictive Maintenance
+- Aerospace
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +49,12 @@ maintainers:
 common:
 - type: Website
   url: https://www.shift5.io/
+- type: Blog
+  url: https://www.shift5.io/insights
+- type: DomainSecurity
+  url: security/shift5-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
